@@ -6,42 +6,62 @@ import Writings from "../components/home/writings.astro";
 import Layout from "../layouts/main.astro";
 ---
 
-<Layout title="Kai">
+<Layout title="drssj">
   <div
-    class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
+    class="relative z-20 w-full max-w-4xl mx-auto mt-8 px-7 md:mt-12 lg:mt-16 xl:px-0"
   >
     <div class="flex flex-col items-center md:flex-row">
-      <div class="relative w-full md:w-1/2">
+      <div class="relative w-full md:w-3/4">
+        <p class="mb-2 text-base text-neutral-600 dark:text-neutral-400">
+          Hi, I am
+        </p>
         <h1
-          class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white"
+          class="mb-4 text-3xl font-bold leading-tight md:text-4xl lg:text-5xl dark:text-white"  
         >
-          Hello, I'm Kai.
+          Dr. Saad Javaid.
         </h1>
         <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
-          I'm a front-end programmer living in Nanjing. <br
-            class="hidden lg:block"
-          />I focus on Web development.
-        </p>
-        <p class="mb-2 font-semibold text-neutral-800 dark:text-neutral-200">
-          I can help you out with:
+          I am an Assistant Professor at College of Aeronautical Engineering (CAE) at NUST, Pakistan.   
+          <span class="hidden lg:block mt-4">
+              I am currently the Chief Instructor (Deputy HoD) for the Department of Aerospace Engineering. I help manage all affairs of the department comprising over 25 Faculty and 200 Students. 
+         </span> 
+         <p class="mb-1 font-semibold text-neutral-800 dark:text-neutral-200">
+          A few key highlights about me and my career:
         </p>
         <ul
-          class="py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400"
+          class="py-2 space-y-[3px] text-base list-disc list-inside text-neutral-500 dark:text-neutral-400"
         >
-          <li>Vue.js Development</li>
-          <li>React.js Development</li>
-          <li>Node.js Development</li>
-          <li>Website Design</li>
-          <li>and more...</li>
+          <li>PhD in Materials Science & Engineering from Georgia Tech</li>
+          <li>Fulbright Scholar</li>
+          <li>MBA with TI:GER & LSS BB from Georgia Tech</li>
+          <li>USAF Academy Young Alumni Award Winner 2024</li>
+          <li>USAF Academy Airmanship Instructor Pilot</li>
+
         </ul>
-        <Button text="Follow me on 𝕏" link="https://x.com/0xKaiBi" />
-      </div>
+         <p class="mb-1 font-semibold text-neutral-800 dark:text-neutral-200">
+          Research and Teaching interests include:
+        </p>
+        <ul
+          class="py-2 space-y-[3px] text-base list-disc list-inside text-neutral-500 dark:text-neutral-400"
+        >
+          <li>Aerospace Materials and Structures</li>
+          <li>Computational Structural Analysis</li>
+          <li>Use of AI/ML in Teaching</li>
+
+        </ul>
+
+        <div class="flex flex-wrap gap-2 mt-1">  
+          <Button text="Linkedin" link="www.linkedin.com/in/saadjavaid" />
+          <Button text="Google Scholar" link="" />
+          <Button text="𝕏" link="" />
+        </div>
+        </div>
       <div
         class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
       >
         <div class="relative z-50 w-full">
           <div
-            class="absolute bottom-0 z-40 w-16 h-16 -translate-x-6 -translate-y-1/2 lg:top-auto top-0 lg:-translate-y-[330px] rounded-full"
+            class="absolute bottom-0 z-40 w-16 h-16 -translate-x-6 -translate-y-1/2 lg:top-auto top-0 lg:-translate-y-[160px] rounded-full"
           >
             <span
               class="relative z-20 flex items-center justify-center w-full h-full text-2xl border-8 border-white rounded-full dark:border-neutral-950 bg-neutral-100 dark:bg-neutral-900"
@@ -52,16 +72,16 @@ import Layout from "../layouts/main.astro";
               >
             </span>
           </div>
-          <div class="relative z-30 px-10">
+          <div class="relative z-30 px-5">
             <img
-              src="/assets/images/photo.png"
+              src="/assets/images/Pic2.png"
               loading="eager"
               decoding="auto"
-              class="relative z-30 w-full aspect-[790/1189] md:max-w-md mx-auto dark:-translate-y-0.5"
+              class="relative z-30 w-full md:max-w-md mx-auto dark:-translate-y-0.5"
             />
           </div>
           <div
-            class="absolute bottom-0 right-0 z-20 w-full h-full lg:h-[420px] translate-x-0 -translate-y-px border border-dashed rounded-2xl bg-gradient-to-r dark:from-neutral-950 dark:via-black dark:to-neutral-950 from-white via-neutral-50 to-white border-neutral-300 dark:border-neutral-700"
+            class="absolute bottom-0 right-0 z-20 w-full h-full lg:h-[250px] translate-x-0 -translate-y-px border border-dashed rounded-2xl bg-gradient-to-r dark:from-neutral-950 dark:via-black dark:to-neutral-950 from-white via-neutral-50 to-white border-neutral-300 dark:border-neutral-700"
           >
           </div>
         </div>
@@ -69,8 +89,8 @@ import Layout from "../layouts/main.astro";
     </div>
   </div>
 
-  <Separator text="Check out my projects" />
+  <Separator text="Current Projects" />
   <Projects />
-  <Separator text="Some of my writing" />
+  <Separator text="Latest Writings" />
   <Writings />
 </Layout>
