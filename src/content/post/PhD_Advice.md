@@ -33,4 +33,4 @@ Although for the purposes of my post, this slideshow is concise and what I wante
 5. Its tough to say this when you have too much to do and seemingly too little time : but have a life outside your PhD. Act like a normal human being, read those news sources [The Wall Street Journal](www.wsj.com), spend time with your family, go to the movies and anything else that you can afford :smile:
 
 The list is definitely not exhaustive and I'll see if I can find ways to keep updating it without making it too cumbersome anyone reading. At the end of the day, the purpose is to learm, have a better job offer, and biggest of all, be done ! Good luck !
-![PhD Comics](./data/PhD.jpg)
+![PhD Comics](/assets/images/posts/PhD.jpg)
