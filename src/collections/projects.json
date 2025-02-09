@@ -1,14 +1,21 @@
 [
 	{
-		"name": "TempMail.Best",
-		"description": "Best Temporary Email.",
-		"image": "/assets/images/projects/tempmail.best.png",
-		"url": "https://tempmail.best"
+		"name": "Digital Image Correlation (DIC) ",
+		"description": "Development of a Low Cost DIC Setup",
+		"image": "/assets/images/projects/DIC_MVP.png",
+		"url": ""
 	},
 	{
-		"name": "DNS.Surf",
-		"description": "Querying DNS Resolution Results in Different Regions Worldwide.",
-		"image": "/assets/images/projects/dns.surf.png",
-		"url": "https://dns.surf"
+		"name": "Anomaly Detection for Aircraft Sensor Data",
+		"description": "ML/AI Techniques for Anomaly Detection for Aircraft Data",
+		"image": "/assets/images/projects/Anomaly.webp",
+		"url": ""
+	},
+	
+	{
+		"name": "Deformation Analysis for High Entropy Alloys",
+		"description": "Comparisons of Strain Localization between Conventional Alloys and High Entropy Alloys",
+		"image": "/assets/images/projects/Deformation.png",
+		"url": ""
 	}
 ]
