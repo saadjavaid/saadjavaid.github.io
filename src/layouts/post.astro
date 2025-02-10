@@ -1,6 +1,7 @@
 ---
 import Layout from "./main.astro";
 const { frontmatter } = Astro.props;
+import Comments from "../components/comments.astro";
 ---
 
 <Layout title={frontmatter.title}>
@@ -31,6 +32,6 @@ const { frontmatter } = Astro.props;
       <slot />
     </article>
     
-
+    <Comments/>
   </main>
 </Layout>
