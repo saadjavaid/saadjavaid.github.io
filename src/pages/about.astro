@@ -5,16 +5,19 @@ import AboutExperience from "../components/about-experience.astro";
 import AboutEducation from "../components/about-education.astro";
 import PageHeading from "../components/page-heading.astro";
 import Layout from "../layouts/main.astro";
+import { Image } from 'astro:assets';
+import SaadImage from '../pages/data/Saad.png';
 ---
 
 <Layout title="About Me">
   <section class="relative z-20 max-w-2xl mx-auto my-12 px-7 lg:px-0">
     <PageHeading
       title="About Me"
-      description="Hello 👋 I'm Saad Javaid."
+      description="Hello again 👋 I am Dr. Saad Javaid"
     />
 
-    <img src="/assets/images/about.jpg" class="relative z-30 w-full my-10 rounded-xl" />
+    <div class="relative z-30 px-10">
+      <Image src={SaadImage} alt="" width="300" height="300" />
 
     <h2 class="mb-2 text-2xl font-bold dark:text-neutral-200">Short Bio</h2>
     <p
