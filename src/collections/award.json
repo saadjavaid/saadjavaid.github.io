@@ -8,8 +8,8 @@
 		{
 		"name": "Best Faculty Award x 2 - CAE, NUST",
 		"description": "Selected as the Best Faculty Member Twice in 2023 and 2024",
-		"image": "",
-		"url": "/assets/images/awards/BFM.png"
+		"image": "/assets/images/awards/BFM.png",
+		"url": ""
 	},
 
 	{
