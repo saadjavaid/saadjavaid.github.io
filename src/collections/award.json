@@ -5,10 +5,18 @@
 		"image": "/assets/images/awards/YAEA.jpeg",
 		"url": "https://www.usafa.org/youngalumniawards"
 	},
+		{
+		"name": "Best Faculty Award x 2 - CAE, NUST",
+		"description": "Selected as the Best Faculty Member Twice in 2023 and 2024",
+		"image": "",
+		"url": "/assets/images/awards/BFM.png"
+	},
+
 	{
 		"name": "3 Minute Thesis Winner - Georgia Tech",
 		"description": "1 out of all PhD Students at Georgia Tech",
 		"image": "/assets/images/awards/3MT.png",
 		"url": "https://www.mse.gatech.edu/news/saad-javaid-wins-annual-three-minute-thesis-competition"
 	}
+
 ]
