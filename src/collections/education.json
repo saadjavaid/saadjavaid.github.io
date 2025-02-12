@@ -4,14 +4,14 @@
 		"role": "PhD in Materials Science & Engineering",
 		"university": "Georgia Institute of Technology",
 		"description": "Honors - Fulbright Scholar  Advisor - Christopher Muhlstein. Research - Deformation and damage evolution mechanisms in metal sheets using DIC.",
-		"logo": "/assets/images/experiences/GT_Logo_2.png"
+		"logo": "/src/assets/data/experiences/GT_Logo_3.png"
 	},
 	{
 		"dates": "Aug 2017 · Dec 2018",
 		"role": "Masters of Business Administration",
 		"university": "Georgia Institute of Technology",
 		"description": "TIGER Fellow - Deans Merit Scholarship - Batts Fellowship",
-		"logo": "/assets/images/experiences/GT_Logo_2.png"
+		"logo": "/src/assets/data/experiences/GT_Logo_3.png"
 	}
 	,
 	{
@@ -19,7 +19,7 @@
 		"role": "Masters in Mechanical Engineering & Materials Science and Engineering",
 		"university": "Georgia Institute of Technology",
 		"description": "Completed coursework for 02 additional MS in Engineering degrees while pursuing PhD.",
-		"logo": "/assets/images/experiences/GT_Logo_2.png"
+		"logo": "/src/assets/data/experiences/GT_Logo_3.png"
 	}
 
 	,
@@ -28,7 +28,7 @@
 		"role": "Masters in Materials and Surfance Engineering",
 		"university": "National University of Sciences & Technology",
 		"description": "MS with Research in Polymer Composites for Energy Applications .",
-		"logo": "/assets/images/experiences/NUST.png"
+		"logo": "/src/assets/data/experiences/NUST.png"
 	}
 	,
 	{
@@ -36,6 +36,6 @@
 		"role": "BS in Aeronautical Engineering & Systems Engineering",
 		"university": "United States Air Force Academy",
 		"description": "USAFA Distinguished Graduate with a Double Major and Soaring Instructor Pilot .",
-		"logo": "/assets/images/experiences/USAFA.png"
+		"logo": "/src/assets/data/experiences/USAFA.png"
 	}
 ]
