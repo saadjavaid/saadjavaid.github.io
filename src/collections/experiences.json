@@ -4,41 +4,41 @@
 		"role": "Assistant Professor (Deputy Head of Department, Training Coordinator & Head Mechanics, Structures and Materials)",
 		"company": "National University of Sciences & Technology",
 		"description": "Teaching undergraduate/postgraduate courses in Advanced Mechanics and Continuum Mechanics; supervising student projects and theses; mentoring students in academics and leadership development.",
-		"logo": "/src/assets/data/experiences/NUST.png"
+		"logo": "/assets/images/experiences/NUST.png"
 	},
 	{
 		"dates": "May 2020 · August 2020",
 		"role": "Materials Engineering Intern",
 		"company": "Tesla Inc",
 		"description": "Developed material selection systems for SpaceX Mars missions; created performance metrics for sheet metal qualification; led cross-functional teams as Scrum Master for global casting equipment setup.",
-		"logo": "/src/assets/data/experiences/Tesla.png"
+		"logo": "/assets/images/experiences/Tesla.png"
 	},
 	{
 		"dates": "July 2014 · January 2016",
 		"role": "Assistant Professor",
 		"company": "National University of Sciences & Technology",
 		"description": "Restructured engineering curriculum; managed $0.5M R&D portfolio producing 17 publications for department; mentored students in academic and community initiatives.",
-		"logo": "/src/assets/data/experiences/NUST.png"
+		"logo": "/assets/images/experiences/NUST.png"
 	},
 	{
 		"dates": "August 2012 · June 2014",
 		"role": "Founding Member, Research Engineer",
 		"company": "Failure Analysis Center",
 		"description": "Helped established profitable investigative center; conducted 40+ failure analyses generating revenue; managed full-cycle investigations and safety audits.",
-		"logo": "/src/assets/data/experiences/FAC.png"
+		"logo": "/assets/images/experiences/FAC.png"
 	},
 	{
 		"dates": "August 2010 · July 2012",
 		"role": "Maintenance Systems Engineer (F-16 Flight Lines)",
 		"company": "Pakistan Air Force",
 		"description": "Led 200+ technicians in aircraft operations; managed logistics for 500+ combat missions; implemented $1M fuel efficiency program; coordinated international exercises.",
-		"logo": "/src/assets/data/experiences/PAF.png"
+		"logo": "/assets/images/experiences/PAF.png"
 	},
 	{
 		"dates": "June 2008 · July 2010",
 		"role": "Engineering Officer",
 		"company": "Pakistan Air Force",
 		"description": "Managed F-16 mid-life upgrades; optimized inspection processes reducing downtime by 28%; supervised 100+ technicians in aircraft maintenance operations.",
-		"logo": "/src/assets/data/experiences/PAF.png"
+		"logo": "/assets/images/experiences/PAF.png"
 	}
 ]
