@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: Insights, tips and useful advice for PhD aspirants
 description: Guide for PhD aspirants
 dateFormatted: May 05, 2019

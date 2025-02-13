@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: Cold Iron
 description: Rudyard Kipiling and materials ! Two of my inspirations
 dateFormatted: Jul 14, 2020
