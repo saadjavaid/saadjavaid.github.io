@@ -3,13 +3,15 @@
 		"name": "Home",
 		"url": "/"
 	},
-	{
-		"name": "Posts",
-		"url": "/posts"
-	},
+
 	{
 		"name": "Projects",
 		"url": "/projects"
+	},
+	
+	{
+		"name": "Posts",
+		"url": "/posts"
 	},
 	{
 		"name": "About",
