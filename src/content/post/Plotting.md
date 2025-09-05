@@ -6,7 +6,7 @@ dateFormatted: Sep 05, 2025
 
 I have been trying to come up with good ways of producing high quality visualizations for research papers and / or presentations. While there may be specific requirements through publishers and personal preferences, I have always grappled with understanding what constitues a good visualization. In this post, I will try to develop my personal thesis / brand on what constitues a good plot/chart/visualization.
 
-```python showLineNumbers=false
+```python showLineNumbers collapse={1-11}
 
 import matplotlib.pyplot as plt
 import numpy as np
