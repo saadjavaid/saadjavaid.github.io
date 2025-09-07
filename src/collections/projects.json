@@ -2,20 +2,24 @@
 	{
 		"name": "Digital Image Correlation (DIC) ",
 		"description": "Development of a Low Cost DIC Setup",
+<<<<<<< HEAD
 		"image": "/assets/images/projects/DIC_MVP.png",
+=======
+		"image": "/assets/data/projects/DIC_MVP.png",
+>>>>>>> Astro_5_13
 		"url": ""
 	},
 	{
 		"name": "Anomaly Detection for Aircraft Sensor Data",
 		"description": "ML/AI Techniques for Anomaly Detection for Aircraft Data",
-		"image": "/assets/images/projects/Anomaly.webp",
+		"image": "/assets/data/projects/Anomaly.webp",
 		"url": ""
 	},
 	
 	{
 		"name": "Deformation Analysis for High Entropy Alloys",
 		"description": "Comparisons of Strain Localization between Conventional Alloys and High Entropy Alloys",
-		"image": "/assets/images/projects/Deformation.png",
+		"image": "/assets/data/projects/Deformation.png",
 		"url": ""
 	}
 ]

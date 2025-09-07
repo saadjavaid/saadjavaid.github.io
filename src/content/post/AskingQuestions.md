@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/post.astro
 title: Asking Questions
 description: An insightful take on the importance of asking questions.
 dateFormatted: Jun 6, 2019
