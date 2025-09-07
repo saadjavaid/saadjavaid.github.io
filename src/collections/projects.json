@@ -2,11 +2,7 @@
 	{
 		"name": "Digital Image Correlation (DIC) ",
 		"description": "Development of a Low Cost DIC Setup",
-<<<<<<< HEAD
-		"image": "/assets/images/projects/DIC_MVP.png",
-=======
 		"image": "/assets/data/projects/DIC_MVP.png",
->>>>>>> Astro_5_13
 		"url": ""
 	},
 	{
