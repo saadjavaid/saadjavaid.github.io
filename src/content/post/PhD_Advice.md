@@ -2,6 +2,7 @@
 title: Insights, tips and useful advice for PhD aspirants
 description: Guide for PhD aspirants
 dateFormatted: May 05, 2019
+tags: ["Research"]
 ---
 
 When I was contemplating writing this post, the general idea in my head was to talk about the long and arduous path - and Robert Frost's "road less traveled by" being the difference. This was all I could think of for motivating anyone who is currently thinking, wants to, or has already embarked on this journey. The pattern of the advice was set in my head, its hard work, its the road less travelled, but its going to make the difference. Never did I ever imagine that mid PhD, Robert Frost would make less sense, and Sarah Jessica Parker from Sex and the City would make more. My PhD path till now has boiled down to some extremely relatable words by her :  

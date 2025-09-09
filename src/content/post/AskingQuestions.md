@@ -2,6 +2,7 @@
 title: Asking Questions
 description: An insightful take on the importance of asking questions.
 dateFormatted: Jun 6, 2019
+tags: ["Research"]
 ---
 I recently wrote about my journey through the PhD path in which I mentioned leaning on some lighthearted guidance to get through the haze. I am now at the point in my PhD journey which is perhaps the most nerve-wracking for all aspirants; where I think I know enough to be hopeful but still not enough to be nervy about the big question : **_Do I have a path to being done?_** 
 

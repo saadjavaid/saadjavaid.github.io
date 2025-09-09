@@ -2,6 +2,7 @@
 title: Data Visualization using Matplotlib and Seaborn - Part 1
 description: Creating Beautiful Plots 
 dateFormatted: Sep 05, 2025
+tags: ["Plotting", "Coding"]
 ---
 
 

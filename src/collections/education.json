@@ -4,23 +4,14 @@
 		"role": "PhD in Materials Science & Engineering",
 		"university": "Georgia Institute of Technology",
 		"description": "Honors - Fulbright Scholar  Advisor - Christopher Muhlstein. Research - Deformation and damage evolution mechanisms in metal sheets using DIC.",
-<<<<<<< HEAD
-		"logo": "/assets/images/experiences/GT_Logo_2.png"
-=======
 		"logo": "/assets/data/experiences/GT_Logo_3.png"
->>>>>>> Astro_5_13
 	},
 	{
 		"dates": "Aug 2017 · Dec 2018",
 		"role": "Masters of Business Administration",
 		"university": "Georgia Institute of Technology",
-<<<<<<< HEAD
-		"description": "TIGER Fellow - Deans Merit Scholarship - Batts Fellowship",
-		"logo": "/assets/images/experiences/GT_Logo_2.png"
-=======
 		"description": "TI:GER Fellow - Deans Merit Scholarship - Batts Fellowship",
 		"logo": "/assets/data/experiences/GT_Logo_3.png"
->>>>>>> Astro_5_13
 	}
 	,
 	{
@@ -28,11 +19,7 @@
 		"role": "Masters in Mechanical Engineering & Materials Science and Engineering",
 		"university": "Georgia Institute of Technology",
 		"description": "Completed coursework for 02 additional MS in Engineering degrees while pursuing PhD.",
-<<<<<<< HEAD
-		"logo": "/assets/images/experiences/GT_Logo_2.png"
-=======
 		"logo": "/assets/data/experiences/GT_Logo_3.png"
->>>>>>> Astro_5_13
 	}
 
 	,
@@ -41,11 +28,7 @@
 		"role": "Masters in Materials and Surfance Engineering",
 		"university": "National University of Sciences & Technology",
 		"description": "MS with Research in Polymer Composites for Energy Applications .",
-<<<<<<< HEAD
-		"logo": "/assets/images/experiences/NUST.png"
-=======
 		"logo": "/assets/data/experiences/NUST.png"
->>>>>>> Astro_5_13
 	}
 	,
 	{
@@ -53,10 +36,6 @@
 		"role": "BS in Aeronautical Engineering & Systems Engineering",
 		"university": "United States Air Force Academy",
 		"description": "USAFA Distinguished Graduate with a Double Major and Soaring Instructor Pilot .",
-<<<<<<< HEAD
-		"logo": "/assets/images/experiences/USAFA.png"
-=======
 		"logo": "/assets/data/experiences/USAFA.png"
->>>>>>> Astro_5_13
 	}
 ]

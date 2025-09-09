@@ -2,6 +2,7 @@
 title: Cold Iron
 description: Rudyard Kipiling and materials ! Two of my inspirations
 dateFormatted: Jul 14, 2020
+tags: ["Inspiration"]
 ---
 
 I am an avid Rudyard Kiping fan and his poem "If" is one of my go to pieces of literature for inspiration. I have spent a considerable amount of time learning, pursuing and even teaching materials so its only befitting that today I found something that combines both. Kipling's not-so-subtle take on which material is superior - enjoy.

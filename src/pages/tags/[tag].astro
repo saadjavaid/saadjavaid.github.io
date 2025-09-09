@@ -1,0 +1,101 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/main.astro";
+import { slugify, unslugify } from "../../utils/utils";
+
+export async function getStaticPaths() {
+  const allPosts = await getCollection("post");
+  const sortedPosts = allPosts.sort(
+    (a, b) => new Date(b.data.dateFormatted).valueOf() - new Date(a.data.dateFormatted).valueOf()
+  );
+  
+  const allTags = new Set();
+  sortedPosts.map((post) => {
+    post.data.tags && post.data.tags.map((tag) => allTags.add(tag));
+  });
+
+  return Array.from(allTags).map((tag) => {
+    const filteredPosts = sortedPosts.filter((post) =>
+      post.data.tags.includes(tag)
+    );
+
+    return {
+      params: { tag: slugify(tag) },
+      props: {
+        posts: filteredPosts,
+        tagName: tag,
+      },
+    };
+  });
+}
+
+const { posts } = Astro.props;
+const { tag } = Astro.params;
+const { tagName } = Astro.props;
+
+const title = `Posts tagged "${tagName}"`;
+---
+
+<Layout title={title}>
+  <main class="relative z-30 max-w-4xl pb-1 mx-auto mt-10 bg-white dark:bg-neutral-950 md:rounded-t-md text-neutral-900">
+    <div class="relative flex flex-col px-5 pt-6 border-t border-b-0 md:border-r md:border-l md:pt-20 lg:px-0 justify-stretch md:rounded-t-2xl border-neutral-200 dark:border-neutral-800">
+      <div class="absolute top-0 left-0 hidden w-px h-full mt-1 -translate-x-px md:block bg-gradient-to-b from-transparent to-white dark:to-neutral-950"></div>
+      <div class="absolute top-0 right-0 hidden w-px h-full mt-1 translate-x-px md:block bg-gradient-to-b from-transparent to-white dark:to-neutral-950"></div>
+      
+      <h1 class="w-full max-w-2xl mx-auto text-3xl font-bold leading-tight tracking-tighter text-left md:mb-12 md:text-4xl dark:text-neutral-100 lg:text-5xl md:leading-none">
+        Posts tagged "{tagName}"
+      </h1>
+      
+      <p class="w-full max-w-2xl mx-auto mb-8 text-neutral-600 dark:text-neutral-400">
+        Found {posts.length} post{posts.length !== 1 ? 's' : ''} with this tag.
+      </p>
+    </div>
+
+    <div class="w-full max-w-2xl mx-auto mb-20 px-7 lg:px-0">
+      <div class="space-y-6">
+        {posts.map((post) => (
+          <article class="border border-neutral-200 dark:border-neutral-800 rounded-lg p-6 hover:border-neutral-300 dark:hover:border-neutral-700 transition-colors duration-200">
+            <h3 class="text-xl font-semibold mb-2">
+              <a 
+                href={`/post/${post.slug}/`}
+                class="text-neutral-900 dark:text-neutral-100 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200 no-underline"
+              >
+                {post.data.title}
+              </a>
+            </h3>
+            
+            <p class="text-neutral-600 dark:text-neutral-400 mb-3">
+              {post.data.description}
+            </p>
+            
+            <div class="flex items-center justify-between text-sm">
+              <time class="text-neutral-500 dark:text-neutral-500">
+                {post.data.dateFormatted}
+              </time>
+              
+              <div class="flex flex-wrap gap-1">
+                {post.data.tags.map((postTag) => (
+                  <a
+                    href={`/tags/${slugify(postTag)}/`}
+                    class="inline-block px-2 py-1 text-xs bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 rounded hover:bg-blue-100 dark:hover:bg-blue-900 hover:text-blue-700 dark:hover:text-blue-300 transition-colors duration-200 no-underline"
+                  >
+                    {postTag}
+                  </a>
+                ))}
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+      
+      <div class="mt-12 text-center">
+        <a 
+          href="/tags/" 
+          class="inline-block px-4 py-2 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded-lg hover:bg-blue-200 dark:hover:bg-blue-800 transition-colors duration-200 no-underline"
+        >
+          ← Browse All Tags
+        </a>
+      </div>
+    </div>
+  </main>
+</Layout>
